@@ -1,0 +1,90 @@
+{
+    "id": "ec0f549",
+    "elType": "container",
+    "settings": {
+        "flex_direction": "row",
+        "content_width": "full"
+    },
+    "elements": [
+        {
+            "id": "c0357e1",
+            "elType": "widget",
+            "settings": {
+                "slides_name": "Slides",
+                "slides": [
+                    {
+                        "heading": "Slide 1 Heading",
+                        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit dolor",
+                        "button_text": "Click Here",
+                        "background_image": {
+                            "url": "http://adv-jorge-santos-aracaju-site.local/wp-content/uploads/2026/09/hero-trabalhista.jpg",
+                            "id": 390,
+                            "alt": "",
+                            "source": "library",
+                            "size": ""
+                        },
+                        "_id": "a483ab5",
+                        "background_ken_burns": "yes",
+                        "background_overlay": "yes",
+                        "custom_style": "yes",
+                        "horizontal_position": "left",
+                        "__globals__": {
+                            "background_color": "globals/colors?id=d49ac81"
+                        }
+                    },
+                    {
+                        "heading": "Slide 1 Heading",
+                        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit dolor",
+                        "button_text": "Click Here",
+                        "background_image": {
+                            "url": "http://adv-jorge-santos-aracaju-site.local/wp-content/uploads/2026/09/hero-trabalhista.jpg",
+                            "id": 390,
+                            "alt": "",
+                            "source": "library",
+                            "size": ""
+                        },
+                        "background_ken_burns": "yes",
+                        "zoom_direction": "out",
+                        "background_overlay": "yes",
+                        "custom_style": "yes",
+                        "horizontal_position": "right",
+                        "__globals__": {
+                            "background_color": "globals/colors?id=d49ac81"
+                        },
+                        "_id": "90b3bba"
+                    }
+                ],
+                "slides_height": {
+                    "unit": "px",
+                    "size": 450,
+                    "sizes": []
+                },
+                "navigation": "dots",
+                "slides_padding": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "100",
+                    "bottom": "100",
+                    "left": "100",
+                    "isLinked": true
+                },
+                "slides_horizontal_position": "",
+                "button_size": "xs",
+                "_element_width": "inherit",
+                "__globals__": {
+                    "heading_color": "globals/colors?id=d49ac81",
+                    "button_background_color": "globals/colors?id=d49ac81",
+                    "button_text_color": "globals/colors?id=text",
+                    "button_border_color": "globals/colors?id=d49ac81",
+                    "button_hover_background_color": "globals/colors?id=text",
+                    "button_hover_text_color": "globals/colors?id=d49ac81",
+                    "button_hover_border_color": "globals/colors?id=text",
+                    "heading_typography_typography": "globals/typography?id=primary"
+                }
+            },
+            "elements": [],
+            "widgetType": "slides"
+        }
+    ],
+    "isInner": false
+}

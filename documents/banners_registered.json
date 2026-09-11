@@ -1,0 +1,26 @@
+{
+    "institucional": {
+        "id": 424,
+        "url": "http://adv-jorge-santos-aracaju-site.local/wp-content/uploads/2026/09/slide-banner-institucional.png"
+    },
+    "trabalhista": {
+        "id": 425,
+        "url": "http://adv-jorge-santos-aracaju-site.local/wp-content/uploads/2026/09/slide-banner-trabalhista.png"
+    },
+    "divorcio": {
+        "id": 426,
+        "url": "http://adv-jorge-santos-aracaju-site.local/wp-content/uploads/2026/09/slide-banner-divorcio-familia.png"
+    },
+    "imobiliario": {
+        "id": 427,
+        "url": "http://adv-jorge-santos-aracaju-site.local/wp-content/uploads/2026/09/slide-banner-imobiliario.png"
+    },
+    "empresarial": {
+        "id": 428,
+        "url": "http://adv-jorge-santos-aracaju-site.local/wp-content/uploads/2026/09/slide-banner-empresarial.png"
+    },
+    "inventario": {
+        "id": 429,
+        "url": "http://adv-jorge-santos-aracaju-site.local/wp-content/uploads/2026/09/slide-banner-inventario.png"
+    }
+}

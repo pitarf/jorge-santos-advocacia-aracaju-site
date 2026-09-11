@@ -1,0 +1,1229 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Lawkit - Template kit for Law Firm & Attorney",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Case Study",
+            "screenshot": "screenshots\/case-study.jpg",
+            "source": "templates\/case-study.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/template-kit\/case-study\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single service",
+            "screenshot": "screenshots\/single-service.jpg",
+            "source": "templates\/single-service.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/template-kit\/single-service\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing plan",
+            "screenshot": "screenshots\/pricing-plan.jpg",
+            "source": "templates\/pricing-plan.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/template-kit\/pricing-plan\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Lawkit - Error 404",
+            "screenshot": "screenshots\/lawkit-error-404.jpg",
+            "source": "templates\/lawkit-error-404.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/?elementor_library=lawkit-error-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Lawkit - Single post",
+            "screenshot": "screenshots\/lawkit-single-post.jpg",
+            "source": "templates\/lawkit-single-post.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/?elementor_library=lawkit-single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Lawkit - Archive blog",
+            "screenshot": "screenshots\/lawkit-archive-blog.jpg",
+            "source": "templates\/lawkit-archive-blog.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/?elementor_library=lawkit-archive-blog",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Lawkit - Footer",
+            "screenshot": "screenshots\/lawkit-footer.jpg",
+            "source": "templates\/lawkit-footer.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/?elementor_library=lawkit-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Lawkit - Header",
+            "screenshot": "screenshots\/lawkit-header.jpg",
+            "source": "templates\/lawkit-header.json",
+            "preview_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/?elementor_library=lawkit-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.7.5",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Skyboot Custom Icons for Elementor - Elementor Icons library",
+            "version": "1.0.5",
+            "file": "skyboot-custom-icons-for-elementor\/skyboot-custom-icons-for-elementor.php",
+            "author": "Skybootstrap"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.7.7",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "columns-and-steps-of-a-government-building.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/columns-and-steps-of-a-government-building-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 190894,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Y3CSR4Z"
+        },
+        {
+            "filename": "img_1.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/img_1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 83528,
+            "dimensions": [
+                500,
+                649
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/confident-and-successful-businessman-HNCSMX2"
+        },
+        {
+            "filename": "vietnamese-team-of-lawyers.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/vietnamese-team-of-lawyers-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 110277,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-QS3A7W6"
+        },
+        {
+            "filename": "front-steps-and-columns-of-the-supreme-court.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/front-steps-and-columns-of-the-supreme-court-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 142344,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4HLTWVR"
+        },
+        {
+            "filename": "logo-1.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/logo-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 2063,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-2.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/logo-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 1811,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-3.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/logo-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 2079,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-4.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/logo-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 2193,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-5.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/logo-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 2300,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-11.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/logo-11.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 1900,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "architecture.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/architecture-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                }
+            ],
+            "filesize": 179871,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-EEGZUCW"
+        },
+        {
+            "filename": "img__0007_Layer-1.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/img__0007_Layer-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                }
+            ],
+            "filesize": 42410,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pleased-cheerful-redhaired-male-with-pleasant-smil-CCXAYZL"
+        },
+        {
+            "filename": "img__0001_Layer-7.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/img__0001_Layer-7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                }
+            ],
+            "filesize": 41345,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/horizontal-shot-of-pleasant-looking-ginger-young-e-F9MBGAR"
+        },
+        {
+            "filename": "img__0004_Layer-4.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/img__0004_Layer-4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                }
+            ],
+            "filesize": 40613,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/waist-up-shot-of-handsome-self-confident-cheerful--BUTM9PX"
+        },
+        {
+            "filename": "businessman-shaking-hands-to-seal-a-deal-with-his-partner-lawyers-or-attorneys-discussing.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/businessman-shaking-hands-to-seal-a-deal-with-his-partner-lawyers-or-attorneys-discussing-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 99710,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-VHV3GW6"
+        },
+        {
+            "filename": "legal-law.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/legal-law-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 95930,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZCH6DRX"
+        },
+        {
+            "filename": "child-psychologist-session-mother-daughter-therapist-together-in-office.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/child-psychologist-session-mother-daughter-therapist-together-in-office-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 145564,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-66Y8AC6"
+        },
+        {
+            "filename": "happy-mature-middle-aged-family-couple-clients-signs-financial-insurance-pension-startup.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/happy-mature-middle-aged-family-couple-clients-signs-financial-insurance-pension-startup-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 112286,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-M7QD73E"
+        },
+        {
+            "filename": "business-lawyer-is-currently-counseling-the-client-s-trial-at-the-lawyer-office-.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/business-lawyer-is-currently-counseling-the-client-s-trial-at-the-lawyer-office--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 107374,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZDQCMF5"
+        },
+        {
+            "filename": "attorneys.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/attorneys-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 176071,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-B7SCXZF"
+        },
+        {
+            "filename": "client-is-bringing-the-documents-to-clarify-the-law-to-the-lawyer-at-the-prosecutor-office-.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/client-is-bringing-the-documents-to-clarify-the-law-to-the-lawyer-at-the-prosecutor-office--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 167330,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-79PVA3D"
+        },
+        {
+            "filename": "lady-justice-or-justitia-statue-with-blindfold-and-scales-is-a-symbol-for-law-and-legal-concepts-.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/lady-justice-or-justitia-statue-with-blindfold-and-scales-is-a-symbol-for-law-and-legal-concepts--800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single service"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/lawkit-error-404.json",
+                    "name": "Lawkit - Error 404"
+                }
+            ],
+            "filesize": 66445,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-AJDNEJS"
+        },
+        {
+            "filename": "consultation-of-businesswoman-and-female-lawyer-or-judge-counselor-having-team-meeting-with-client.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/consultation-of-businesswoman-and-female-lawyer-or-judge-counselor-having-team-meeting-with-client-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single service"
+                },
+                {
+                    "source": "templates\/lawkit-archive-blog.json",
+                    "name": "Lawkit - Archive blog"
+                }
+            ],
+            "filesize": 124200,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8D9Z6DK"
+        },
+        {
+            "filename": "consultation-and-conference-of-professional-businesswoman-and-male-lawyers-working-and-discussion.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/consultation-and-conference-of-professional-businesswoman-and-male-lawyers-working-and-discussion-800x377.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 81561,
+            "dimensions": [
+                1280,
+                603
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-WE37PMU"
+        },
+        {
+            "filename": "signature_img.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/signature_img.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 3307,
+            "dimensions": [
+                260,
+                84
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bg_img.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/bg_img.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 720,
+            "dimensions": [
+                100,
+                20
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "entrance-to-the-royal-court-of-justice.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/entrance-to-the-royal-court-of-justice-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                }
+            ],
+            "filesize": 267124,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PHNJHFB"
+        },
+        {
+            "filename": "bg_pattern.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/bg_pattern.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 146,
+            "dimensions": [
+                6,
+                6
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "pro__0008_img_1.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/pro__0008_img_1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 85015,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-SWV853M"
+        },
+        {
+            "filename": "pro__0000_Layer-6.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/pro__0000_Layer-6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 72380,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/businesswoman-portrait-8U9PJNY"
+        },
+        {
+            "filename": "pro__0001_Layer-5.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/pro__0001_Layer-5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 69443,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/businesswoman-WDL67QF"
+        },
+        {
+            "filename": "pro__0004_Layer-2.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/pro__0004_Layer-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 90213,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-portrait-FDNUADJ"
+        },
+        {
+            "filename": "judge-s-gavel-with-books-and-statue-of-justice-scales-on-law-office-working-law-document.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/judge-s-gavel-with-books-and-statue-of-justice-scales-on-law-office-working-law-document-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 119730,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZPVFAHK"
+        },
+        {
+            "filename": "federal-building.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/federal-building-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 177279,
+            "dimensions": [
+                1280,
+                855
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-YLNU55E"
+        },
+        {
+            "filename": "front-view-of-the-supreme-court-building.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/front-view-of-the-supreme-court-building-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                }
+            ],
+            "filesize": 166539,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7C6HRZA"
+        },
+        {
+            "filename": "pro__0006_img_3.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/pro__0006_img_3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 108100,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-NWTE66M"
+        },
+        {
+            "filename": "pro__0005_Layer-1.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/pro__0005_Layer-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 72101,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-3BLGWV6"
+        },
+        {
+            "filename": "pro__0002_Layer-4.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/pro__0002_Layer-4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 75689,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/beautiful-asian-businesswoman-4LESNMV"
+        },
+        {
+            "filename": "pro__0003_Layer-3.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/pro__0003_Layer-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 73675,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/business-secretary-with-clipboard-HFN7QXH"
+        },
+        {
+            "filename": "legal-advisor-is-explaining-the-offense-under-the-law-in-the-book-at-office-.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/legal-advisor-is-explaining-the-offense-under-the-law-in-the-book-at-office--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 95341,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-YPWJZGM"
+        },
+        {
+            "filename": "work-in-a-law-firm-or-legal-advice-online-on-the-internet-legal-assistance-during.jpg",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/work-in-a-law-firm-or-legal-advice-online-on-the-internet-legal-assistance-during-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                }
+            ],
+            "filesize": 81904,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-3EWRGWG"
+        },
+        {
+            "filename": "Logo_lawkit_w.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/Logo_lawkit_w.png",
+            "templates": [
+                {
+                    "source": "templates\/lawkit-footer.json",
+                    "name": "Lawkit - Footer"
+                }
+            ],
+            "filesize": 7060,
+            "dimensions": [
+                382,
+                129
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Logo_lawkit.png",
+            "thumbnail_url": "https:\/\/kitnew.moxcreative.com\/lawkit\/wp-content\/uploads\/sites\/24\/2022\/12\/Logo_lawkit.png",
+            "templates": [
+                {
+                    "source": "templates\/lawkit-header.json",
+                    "name": "Lawkit - Header"
+                }
+            ],
+            "filesize": 9734,
+            "dimensions": [
+                382,
+                129
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}
