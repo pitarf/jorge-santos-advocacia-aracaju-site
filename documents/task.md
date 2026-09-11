@@ -23,8 +23,9 @@
 
 ## Pendentes
 - [x] Criação do repositório no GitHub (privado) e conexão remota (`git remote add origin https://github.com/pitarf/jorge-santos-advocacia-aracaju-site.git`)
-- [ ] Primeiro commit e push da estrutura (`git push -u origin main`)
+- [x] Primeiro commit e push da estrutura (`git push -u origin main`)
 - [x] Instalação e configuração do plugin WP Pusher na hospedagem de produção
-- [ ] Ativação do Push-to-Deploy no WP Pusher para deploys automáticos
+- [x] Ativação do Push-to-Deploy no WP Pusher para deploys automáticos
+
 
 
