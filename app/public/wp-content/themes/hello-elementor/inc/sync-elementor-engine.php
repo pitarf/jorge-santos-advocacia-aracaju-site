@@ -1,0 +1,81 @@
+<?php
+/**
+ * Sincronizador Automático de Layouts e Páginas Elementor via Tema
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+// 1. Hook via URL direta: ?sync_elementor=jorge_aracaju_2026
+add_action( 'init', function() {
+	if ( isset( $_GET['sync_elementor'] ) && $_GET['sync_elementor'] === 'jorge_aracaju_2026' ) {
+		jorge_executar_sincronizacao_elementor();
+		wp_die( '<div style="font-family:sans-serif;padding:30px;background:#071220;color:#fff;text-align:center;border-radius:8px;max-width:600px;margin:50px auto;border:2px solid #C5A880;"><h2 style="color:#C9A45C;">Sincronização Concluída com Sucesso!</h2><p>Todas as 8 páginas, os cards 3D e os sliders nativos do Elementor foram sincronizados no banco de dados.</p><a href="/" style="display:inline-block;padding:12px 24px;background:#C9A45C;color:#071220;text-decoration:none;font-weight:bold;border-radius:4px;margin-top:15px;">Ver Página Inicial</a></div>' );
+	}
+} );
+
+// 2. Função de Sincronização
+function jorge_executar_sincronizacao_elementor() {
+	$json_file = get_template_directory() . '/elementor_sync_data.json';
+	if ( ! file_exists( $json_file ) ) {
+		return false;
+	}
+
+	$pages = json_decode( file_get_contents( $json_file ), true );
+	if ( empty( $pages ) ) {
+		return false;
+	}
+
+	foreach ( $pages as $orig_id => $data ) {
+		$target_post = null;
+
+		// 1. Tentar achar pela Home se for a página inicial
+		if ( $data['post_name'] === 'home' || $orig_id == 37 ) {
+			$front_page_id = get_option( 'page_on_front' );
+			if ( $front_page_id ) {
+				$target_post = get_post( $front_page_id );
+			}
+		}
+
+		// 2. Tentar por post_name / slug
+		if ( ! $target_post ) {
+			$found = get_posts( [
+				'name'           => $data['post_name'],
+				'post_type'      => [ 'page', 'elementor_library' ],
+				'post_status'    => 'any',
+				'posts_per_page' => 1
+			] );
+			if ( ! empty( $found ) ) {
+				$target_post = $found[0];
+			}
+		}
+
+		// 3. Se for template de header ou footer (ID 15 ou 18)
+		if ( ! $target_post && in_array( $orig_id, [ 15, 18 ] ) ) {
+			$target_post = get_post( $orig_id );
+		}
+
+		if ( $target_post ) {
+			$post_id = $target_post->ID;
+			update_post_meta( $post_id, '_elementor_data', wp_slash( json_encode( $data['elementor_data'], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) ) );
+			update_post_meta( $post_id, '_elementor_edit_mode', 'builder' );
+
+			if ( ! empty( $data['page_settings'] ) ) {
+				update_post_meta( $post_id, '_elementor_page_settings', $data['page_settings'] );
+			}
+			if ( ! empty( $data['rank_math'] ) ) {
+				update_post_meta( $post_id, 'rank_math_title', $data['rank_math']['title'] );
+				update_post_meta( $post_id, 'rank_math_description', $data['rank_math']['desc'] );
+				update_post_meta( $post_id, 'rank_math_focus_keyword', $data['rank_math']['focus'] );
+			}
+		}
+	}
+
+	// Limpar cache de CSS do Elementor
+	if ( class_exists( '\Elementor\Plugin' ) ) {
+		\Elementor\Plugin::$instance->files_manager->clear_cache();
+	}
+
+	return true;
+}

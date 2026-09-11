@@ -271,3 +271,6 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 require HELLO_THEME_PATH . '/theme.php';
 
 HelloTheme\Theme::instance();
+
+// Motor de Sincronização Elementor Jorge Santos Advocacia
+require_once HELLO_THEME_PATH . '/inc/sync-elementor-engine.php';
