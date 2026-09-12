@@ -1,0 +1,283 @@
+{
+    "id": "721f6ad6",
+    "elType": "section",
+    "settings": {
+        "structure": "20",
+        "padding": {
+            "unit": "em",
+            "top": "7",
+            "right": "0",
+            "bottom": "7",
+            "left": "0",
+            "isLinked": false
+        },
+        "padding_tablet": {
+            "unit": "em",
+            "top": "3",
+            "right": "0",
+            "bottom": "3",
+            "left": "0",
+            "isLinked": false
+        },
+        "padding_mobile": {
+            "unit": "em",
+            "top": "2",
+            "right": "0",
+            "bottom": "2",
+            "left": "0",
+            "isLinked": false
+        }
+    },
+    "elements": [
+        {
+            "id": "25abf5ce",
+            "elType": "column",
+            "settings": {
+                "_column_size": 50,
+                "_inline_size": 35,
+                "padding": {
+                    "unit": "em",
+                    "top": "1",
+                    "right": "3",
+                    "bottom": "1",
+                    "left": "1",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "em",
+                    "top": "2",
+                    "right": "2",
+                    "bottom": "2",
+                    "left": "2",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "21",
+                    "right": "21",
+                    "bottom": "21",
+                    "left": "21",
+                    "isLinked": true
+                },
+                "animation": "fadeInLeft"
+            },
+            "elements": [
+                {
+                    "id": "777c6799",
+                    "elType": "widget",
+                    "settings": {
+                        "title": "Perguntas Frequentes",
+                        "header_size": "h6",
+                        "align_mobile": "center"
+                    },
+                    "elements": [],
+                    "widgetType": "heading"
+                },
+                {
+                    "id": "165ad392",
+                    "elType": "widget",
+                    "settings": {
+                        "title": "Tire suas dúvidas",
+                        "align_mobile": "center"
+                    },
+                    "elements": [],
+                    "widgetType": "heading"
+                },
+                {
+                    "id": "7348d8a",
+                    "elType": "widget",
+                    "settings": {
+                        "align_mobile": "center",
+                        "editor": "<p>Confira algumas informações sobre nossa atuação e atendimento. Caso sua dúvida não esteja respondida, entre em contato com nossa equipe.</p>"
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "5cd4b89a",
+            "elType": "column",
+            "settings": {
+                "_column_size": 50,
+                "_inline_size": 65,
+                "animation": "fadeIn",
+                "animation_delay": 200,
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "21",
+                    "right": "21",
+                    "bottom": "21",
+                    "left": "21",
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "46dc0abd",
+                    "elType": "widget",
+                    "settings": {
+                        "ekit_accordion_items": [
+                            {
+                                "_id": "h_faq_1",
+                                "acc_title": "Como escolher um advogado em Aracaju?",
+                                "acc_content": "<p>É recomendável verificar a regularidade profissional, conhecer as áreas de atuação informadas pelo advogado ou escritório e apresentar os documentos e fatos relacionados à demanda para que seja possível realizar uma avaliação jurídica adequada.</p>",
+                                "ekit_acc_is_active": "yes"
+                            },
+                            {
+                                "_id": "h_faq_2",
+                                "acc_title": "Quais documentos devo levar para uma consulta com advogado?",
+                                "acc_content": "<p>Os documentos dependem do assunto. Contratos, documentos pessoais, comprovantes, mensagens, notificações, decisões judiciais, certidões e outros registros relacionados ao problema podem ser relevantes.</p>"
+                            },
+                            {
+                                "_id": "h_faq_3",
+                                "acc_title": "É possível receber atendimento jurídico mesmo estando em outra cidade?",
+                                "acc_content": "<p>Diversas etapas do atendimento jurídico podem ser realizadas por meios digitais, dependendo das características do caso e dos atos que precisem ser praticados.</p>"
+                            },
+                            {
+                                "_id": "h_faq_4",
+                                "acc_title": "O escritório atende empresas em Aracaju?",
+                                "acc_content": "<p>A Jorge Santos Advocacia e Consultoria Jurídica presta assessoria em <strong>Direito Empresarial e Direito Trabalhista empresarial</strong>, incluindo contratos, cobranças, prevenção de riscos e defesa em processos.</p>"
+                            },
+                            {
+                                "_id": "h_faq_5",
+                                "acc_title": "O escritório atua com Direito Trabalhista em Aracaju?",
+                                "acc_content": "<p>Sim. A atuação compreende demandas relacionadas aos direitos e obrigações decorrentes das relações de trabalho, tanto para trabalhadores quanto para empresas.</p>"
+                            },
+                            {
+                                "_id": "h_faq_6",
+                                "acc_title": "O escritório atua com divórcio em Aracaju?",
+                                "acc_content": "<p>Sim. São analisadas questões relacionadas a divórcio consensual ou litigioso, partilha patrimonial e demais consequências jurídicas relacionadas ao encerramento do casamento.</p>"
+                            },
+                            {
+                                "_id": "h_faq_7",
+                                "acc_title": "O escritório atua com Direito Imobiliário em Aracaju?",
+                                "acc_content": "<p>Sim. A atuação pode envolver compra e venda, contratos, regularização de imóveis, usucapião, distrato, imóveis na planta, locações e conflitos imobiliários.</p>"
+                            },
+                            {
+                                "_id": "h_faq_8",
+                                "acc_title": "O escritório realiza inventário em Aracaju?",
+                                "acc_content": "<p>O escritório presta orientação e acompanhamento em inventários e questões relacionadas a herança e partilha de bens, observando a modalidade juridicamente adequada a cada situação.</p>"
+                            }
+                        ],
+                        "ekit_accordion_background_background": "classic",
+                        "ekit_accordion_background_color": "#02010100",
+                        "ekit_accordion_title_border_open_border": "solid",
+                        "ekit_accordion_title_border_open_width": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "1",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "ekit_accordion_background_close_background": "classic",
+                        "ekit_accordion_background_close_color": "#02010100",
+                        "ekit_accordion_title_border_close_border": "solid",
+                        "ekit_accordion_title_border_close_width": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "1",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "ekit_accordion_title_padding": {
+                            "unit": "px",
+                            "top": "28",
+                            "right": "56",
+                            "bottom": "28",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "ekit_accordion_content_padding": {
+                            "unit": "px",
+                            "top": "28",
+                            "right": "0",
+                            "bottom": "28",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "ekit_accordion_section_icon_margin": {
+                            "unit": "px",
+                            "top": "28",
+                            "right": "28",
+                            "bottom": "28",
+                            "left": "28",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "ekit_accordion_title_typography_typography": "globals/typography?id=7044a64",
+                            "ekit_accordion_title_color": "globals/colors?id=332724a",
+                            "ekit_accordion_title_border_open_color": "globals/colors?id=4d462f5",
+                            "ekit_accordion_title_color_close": "globals/colors?id=secondary",
+                            "ekit_accordion_title_border_close_color": "globals/colors?id=4d462f5",
+                            "ekit_accordion_content_typography_typography": "globals/typography?id=b2ce6af"
+                        },
+                        "ekit_accordion_right_icons": {
+                            "value": "fas fa-chevron-down",
+                            "library": "fa-solid"
+                        },
+                        "ekit_accordion_right_icon_actives": {
+                            "value": "fas fa-chevron-up",
+                            "library": "fa-solid"
+                        },
+                        "ekit_accordion_title_padding_tablet": {
+                            "unit": "px",
+                            "top": "21",
+                            "right": "42",
+                            "bottom": "21",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "ekit_accordion_title_padding_mobile": {
+                            "unit": "px",
+                            "top": "16",
+                            "right": "32",
+                            "bottom": "16",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "ekit_accordion_content_padding_tablet": {
+                            "unit": "px",
+                            "top": "21",
+                            "right": "0",
+                            "bottom": "21",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "ekit_accordion_content_padding_mobile": {
+                            "unit": "px",
+                            "top": "16",
+                            "right": "0",
+                            "bottom": "16",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "ekit_accordion_section_icon_margin_tablet": {
+                            "unit": "px",
+                            "top": "21",
+                            "right": "21",
+                            "bottom": "21",
+                            "left": "21",
+                            "isLinked": true
+                        },
+                        "ekit_accordion_section_icon_margin_mobile": {
+                            "unit": "px",
+                            "top": "16",
+                            "right": "16",
+                            "bottom": "16",
+                            "left": "16",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [],
+                    "widgetType": "elementskit-accordion"
+                }
+            ],
+            "isInner": false
+        }
+    ],
+    "isInner": false
+}

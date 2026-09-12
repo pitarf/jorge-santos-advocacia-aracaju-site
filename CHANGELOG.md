@@ -16,14 +16,13 @@ Todas as alterações notáveis neste projeto serão documentadas neste arquivo.
     8. Direito Penal -> `/area-de-atuacao/`
     9. Direito Previdenciário -> `/area-de-atuacao/`
     10. Direito Tributário -> `/area-de-atuacao/`
-- Migração completa do Hero Slider para o **Widget Slides nativo do Elementor Pro**:
-  - Imagens panorâmicas de alta resolução estruturadas com respiro escuro à esquerda e destaques à direita:
-    1. **Institucional:** Equipe de advogados executivos em Aracaju.
-    2. **Direito Trabalhista:** Advogada com carteira de trabalho e martelo da justiça.
-    3. **Direito de Família / Divórcio:** Deusa da Justiça Themis em bronze com balança clássica.
-    4. **Direito Imobiliário:** Arquitetura contemporânea com chave e contrato.
-    5. **Direito Empresarial:** Centro corporativo financeiro com consultoria preventiva.
-    6. **Direito de Inventário:** Escrituras de partilha e herança em mesa nobre.
+- Reestruturação completa da seção de **Perguntas Frequentes (FAQ)** na Home:
+  - Título principal atualizado para: *"Dúvidas frequentes sobre nossos serviços jurídicos em Aracaju"*.
+  - Subtítulo explicativo: *"Encontre respostas para algumas das principais dúvidas sobre atendimento, contratação e áreas de atuação."*.
+  - Inclusão das **10 perguntas e respostas completas** cobrindo atendimento presencial/online, WhatsApp, clientes fora de Aracaju, Trabalhista, Família/Divórcio/Pensão/Guarda, Imobiliário, Empresarial, Inventário/Sucessões, Erro Médico/Estética e Planos de Saúde.
+  - Substituição das bordas de destaque por bordas cinza-claras elegantes (`#E2E8F0`) com setas, ícones e títulos abertos em dourado (`#C9A45C`), em harmonia total com a paleta azul-marinho + dourado.
+  - Inserção de bloco de conversão **CTA com botão para o WhatsApp** logo abaixo da última pergunta (*"Ainda tem dúvidas sobre o seu caso? Converse com nossa equipe e explique sua situação."*).
+
 - Migração completa do Carrossel Horizontal de Áreas para o **Widget nativo `image-carousel` do Elementor**:
   - Removido qualquer bloco de HTML/script manual.
   - Utiliza o componente oficial do Elementor com suporte visual direto no editor.

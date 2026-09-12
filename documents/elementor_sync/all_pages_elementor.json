@@ -4371,7 +4371,7 @@
                                 "id": "165ad392",
                                 "elType": "widget",
                                 "settings": {
-                                    "title": "Tire suas dúvidas",
+                                    "title": "Dúvidas frequentes sobre nossos serviços jurídicos em Aracaju",
                                     "align_mobile": "center"
                                 },
                                 "elements": [],
@@ -4382,7 +4382,7 @@
                                 "elType": "widget",
                                 "settings": {
                                     "align_mobile": "center",
-                                    "editor": "<p>Confira algumas informações sobre nossa atuação e atendimento. Caso sua dúvida não esteja respondida, entre em contato com nossa equipe.</p>"
+                                    "editor": "<p>Encontre respostas para algumas das principais dúvidas sobre atendimento, contratação e áreas de atuação.</p>"
                                 },
                                 "elements": [],
                                 "widgetType": "text-editor"
@@ -4414,45 +4414,55 @@
                                 "settings": {
                                     "ekit_accordion_items": [
                                         {
-                                            "_id": "h_faq_1",
-                                            "acc_title": "Como escolher um advogado em Aracaju?",
-                                            "acc_content": "<p>É recomendável verificar a regularidade profissional, conhecer as áreas de atuação informadas pelo advogado ou escritório e apresentar os documentos e fatos relacionados à demanda para que seja possível realizar uma avaliação jurídica adequada.</p>",
+                                            "_id": "faq_item_01",
+                                            "acc_title": "1. Como funciona o primeiro atendimento com um advogado?",
+                                            "acc_content": "<p>O primeiro contato é utilizado para compreender o caso, identificar os principais documentos e avaliar juridicamente as medidas que podem ser adotadas. O atendimento pode ser realizado de forma presencial ou online.</p>",
                                             "ekit_acc_is_active": "yes"
                                         },
                                         {
-                                            "_id": "h_faq_2",
-                                            "acc_title": "Quais documentos devo levar para uma consulta com advogado?",
-                                            "acc_content": "<p>Os documentos dependem do assunto. Contratos, documentos pessoais, comprovantes, mensagens, notificações, decisões judiciais, certidões e outros registros relacionados ao problema podem ser relevantes.</p>"
+                                            "_id": "faq_item_02",
+                                            "acc_title": "2. Posso enviar documentos pelo WhatsApp?",
+                                            "acc_content": "<p>Sim. Documentos e informações iniciais podem ser encaminhados pelo WhatsApp para facilitar a análise do caso e o atendimento jurídico.</p>"
                                         },
                                         {
-                                            "_id": "h_faq_3",
-                                            "acc_title": "É possível receber atendimento jurídico mesmo estando em outra cidade?",
-                                            "acc_content": "<p>Diversas etapas do atendimento jurídico podem ser realizadas por meios digitais, dependendo das características do caso e dos atos que precisem ser praticados.</p>"
+                                            "_id": "faq_item_03",
+                                            "acc_title": "3. Posso contratar o escritório mesmo estando fora de Aracaju?",
+                                            "acc_content": "<p>Sim. O escritório realiza atendimento online e pode atuar em processos eletrônicos em outras cidades e estados, de acordo com as particularidades de cada demanda.</p>"
                                         },
                                         {
-                                            "_id": "h_faq_4",
-                                            "acc_title": "O escritório atende empresas em Aracaju?",
-                                            "acc_content": "<p>A Jorge Santos Advocacia e Consultoria Jurídica presta assessoria em <strong>Direito Empresarial e Direito Trabalhista empresarial</strong>, incluindo contratos, cobranças, prevenção de riscos e defesa em processos.</p>"
+                                            "_id": "faq_item_04",
+                                            "acc_title": "4. O escritório atua em Direito Trabalhista para empregados e empresas?",
+                                            "acc_content": "<p>Sim. O atendimento abrange trabalhadores e empresas em questões como rescisão, verbas trabalhistas, horas extras, acidentes de trabalho, defesa empresarial e consultoria preventiva, sempre observando eventual conflito de interesses.</p>"
                                         },
                                         {
-                                            "_id": "h_faq_5",
-                                            "acc_title": "O escritório atua com Direito Trabalhista em Aracaju?",
-                                            "acc_content": "<p>Sim. A atuação compreende demandas relacionadas aos direitos e obrigações decorrentes das relações de trabalho, tanto para trabalhadores quanto para empresas.</p>"
+                                            "_id": "faq_item_05",
+                                            "acc_title": "5. O escritório atua com divórcio, guarda e pensão alimentícia?",
+                                            "acc_content": "<p>Sim. A atuação em Direito de Família compreende divórcio consensual ou litigioso, guarda dos filhos, pensão alimentícia, regulamentação de convivência, união estável e partilha de bens.</p>"
                                         },
                                         {
-                                            "_id": "h_faq_6",
-                                            "acc_title": "O escritório atua com divórcio em Aracaju?",
-                                            "acc_content": "<p>Sim. São analisadas questões relacionadas a divórcio consensual ou litigioso, partilha patrimonial e demais consequências jurídicas relacionadas ao encerramento do casamento.</p>"
+                                            "_id": "faq_item_06",
+                                            "acc_title": "6. Quais problemas imobiliários podem ser analisados?",
+                                            "acc_content": "<p>O escritório atua em questões envolvendo compra e venda de imóveis, distrato imobiliário, atraso de obras, loteamentos, contratos, locações, despejo, regularização e usucapião.</p>"
                                         },
                                         {
-                                            "_id": "h_faq_7",
-                                            "acc_title": "O escritório atua com Direito Imobiliário em Aracaju?",
-                                            "acc_content": "<p>Sim. A atuação pode envolver compra e venda, contratos, regularização de imóveis, usucapião, distrato, imóveis na planta, locações e conflitos imobiliários.</p>"
+                                            "_id": "faq_item_07",
+                                            "acc_title": "7. O escritório presta assessoria jurídica para empresas?",
+                                            "acc_content": "<p>Sim. A atuação empresarial envolve elaboração e revisão de contratos, cobranças, prevenção de riscos, conflitos entre sócios e acompanhamento jurídico das atividades da empresa.</p>"
                                         },
                                         {
-                                            "_id": "h_faq_8",
-                                            "acc_title": "O escritório realiza inventário em Aracaju?",
-                                            "acc_content": "<p>O escritório presta orientação e acompanhamento em inventários e questões relacionadas a herança e partilha de bens, observando a modalidade juridicamente adequada a cada situação.</p>"
+                                            "_id": "faq_item_08",
+                                            "acc_title": "8. O escritório realiza inventário e partilha de herança?",
+                                            "acc_content": "<p>Sim. O inventário pode ser judicial ou extrajudicial, dependendo das circunstâncias do caso. Também são analisadas questões envolvendo herança, partilha de bens e direitos sucessórios.</p>"
+                                        },
+                                        {
+                                            "_id": "faq_item_09",
+                                            "acc_title": "9. O escritório atua em casos de erro médico e procedimentos estéticos?",
+                                            "acc_content": "<p>Sim. Podem ser analisados casos envolvendo possível erro médico ou odontológico, falha em hospitais e clínicas, cirurgia plástica, procedimentos estéticos malsucedidos, falha de diagnóstico e outros danos relacionados à prestação de serviços de saúde.</p>"
+                                        },
+                                        {
+                                            "_id": "faq_item_10",
+                                            "acc_title": "10. Problemas com planos de saúde também são atendidos?",
+                                            "acc_content": "<p>Sim. O escritório pode analisar negativas de cobertura, tratamentos, cirurgias, medicamentos, exames, internações, reembolsos e outras controvérsias envolvendo planos de saúde.</p>"
                                         }
                                     ],
                                     "ekit_accordion_background_background": "classic",
@@ -4503,10 +4513,7 @@
                                     },
                                     "__globals__": {
                                         "ekit_accordion_title_typography_typography": "globals/typography?id=7044a64",
-                                        "ekit_accordion_title_color": "globals/colors?id=332724a",
-                                        "ekit_accordion_title_border_open_color": "globals/colors?id=4d462f5",
                                         "ekit_accordion_title_color_close": "globals/colors?id=secondary",
-                                        "ekit_accordion_title_border_close_color": "globals/colors?id=4d462f5",
                                         "ekit_accordion_content_typography_typography": "globals/typography?id=b2ce6af"
                                     },
                                     "ekit_accordion_right_icons": {
@@ -4564,10 +4571,104 @@
                                         "bottom": "16",
                                         "left": "16",
                                         "isLinked": true
-                                    }
+                                    },
+                                    "ekit_accordion_title_color": "#C9A45C",
+                                    "ekit_accordion_title_border_open_color": "#E2E8F0",
+                                    "ekit_accordion_title_color_close": "#0B1724",
+                                    "ekit_accordion_title_border_close_color": "#E2E8F0",
+                                    "ekit_accordion_icon_color": "#C9A45C",
+                                    "ekit_accordion_icon_color_active": "#C9A45C"
                                 },
                                 "elements": [],
                                 "widgetType": "elementskit-accordion"
+                            },
+                            {
+                                "id": "faq_cta_heading",
+                                "elType": "widget",
+                                "widgetType": "heading",
+                                "settings": {
+                                    "title": "Ainda tem dúvidas sobre o seu caso?",
+                                    "header_size": "h4",
+                                    "title_color": "#0B1724",
+                                    "typography_font_family": "Cinzel",
+                                    "typography_font_size": {
+                                        "unit": "px",
+                                        "size": 22,
+                                        "sizes": []
+                                    },
+                                    "_margin": {
+                                        "unit": "px",
+                                        "top": "35",
+                                        "right": "0",
+                                        "bottom": "10",
+                                        "left": "0",
+                                        "isLinked": false
+                                    }
+                                },
+                                "elements": []
+                            },
+                            {
+                                "id": "faq_cta_desc",
+                                "elType": "widget",
+                                "widgetType": "text-editor",
+                                "settings": {
+                                    "editor": "<p style=\"color: #4A4A4A; font-size: 15px; margin-bottom: 20px;\">Converse com nossa equipe e explique sua situação.</p>",
+                                    "_margin": {
+                                        "unit": "px",
+                                        "top": "0",
+                                        "right": "0",
+                                        "bottom": "15",
+                                        "left": "0",
+                                        "isLinked": false
+                                    }
+                                },
+                                "elements": []
+                            },
+                            {
+                                "id": "faq_cta_button",
+                                "elType": "widget",
+                                "widgetType": "button",
+                                "settings": {
+                                    "text": "Falar pelo WhatsApp",
+                                    "selected_icon": {
+                                        "value": "fab fa-whatsapp",
+                                        "library": "fa-brands"
+                                    },
+                                    "icon_align": "left",
+                                    "icon_indent": {
+                                        "unit": "px",
+                                        "size": 10,
+                                        "sizes": []
+                                    },
+                                    "link": {
+                                        "url": "https://wa.me/5579999281768?text=Ol%C3%A1%21%20Estive%20lendo%20as%20d%C3%BAvidas%20frequentes%20e%20gostaria%20de%20conversar%20com%20a%20equipe%20sobre%20o%20meu%20caso%20em%20Aracaju.",
+                                        "is_external": "yes",
+                                        "nofollow": "",
+                                        "custom_attributes": ""
+                                    },
+                                    "button_background_color": "#C9A45C",
+                                    "button_text_color": "#071220",
+                                    "button_hover_background_color": "#D4B36D",
+                                    "button_hover_text_color": "#000000",
+                                    "size": "md",
+                                    "border_radius": {
+                                        "unit": "px",
+                                        "top": "4",
+                                        "right": "4",
+                                        "bottom": "4",
+                                        "left": "4",
+                                        "isLinked": true
+                                    },
+                                    "_box_shadow_box_shadow_type": "yes",
+                                    "_box_shadow_box_shadow": {
+                                        "horizontal": 0,
+                                        "vertical": 4,
+                                        "blur": 15,
+                                        "spread": 0,
+                                        "color": "rgba(201, 164, 92, 0.35)"
+                                    }
+                                },
+                                "elements": []
                             }
                         ],
                         "isInner": false
