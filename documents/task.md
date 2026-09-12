@@ -18,6 +18,7 @@
 - [x] Otimização avançada de SEO On-page com Rank Math para todas as 5 páginas
 - [x] Criação e integração do Slider Hero na Home com as áreas de atuação (fotos temáticas de alta resolução, textos de cada área, botões para cada página e paleta azul-marinho + dourado #C5A880)
 - [x] Configuração da nova coleção de 10 cards 3D ultra premium no carrossel de áreas da Home
+- [x] Implementação do botão flutuante de WhatsApp nativo do Elementor no Rodapé Global (Footer)
 - [x] Criação do .gitignore seguro (proteção de wp-config.php, banco de dados, senhas e WordPress Core)
 - [x] Inicialização do repositório Git local com branch principal `main`
 

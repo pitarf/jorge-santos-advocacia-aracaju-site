@@ -2,6 +2,14 @@
 
 Todas as alterações notáveis neste projeto serão documentadas neste arquivo.
 
+## [2.3.0] - 2026-09-12
+### Adicionado
+- **Botão Flutuante do WhatsApp Nativo do Elementor**:
+  - Injetado no Rodapé Global (`Footer` - ID 18) para carregamento automático em todas as páginas do site.
+  - Configurado com posicionamento fixo (`fixed`) no canto inferior direito (`right: 25px`, `bottom: 25px`, `z-index: 99999`).
+  - Ícone oficial do WhatsApp com fundo verde `#25D366`, sombra com brilho e efeito hover interativo.
+  - Link direto para o número de Aracaju `(79) 99928-1768` com mensagem inicial pré-configurada.
+
 ## [2.2.0] - 2026-09-11
 ### Modificado
 - Carrossel de Áreas de Atuação atualizado para a Coleção 3D Ultra Premium completa:
