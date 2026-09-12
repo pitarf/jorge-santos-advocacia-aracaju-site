@@ -94,111 +94,117 @@ foreach ($data as &$sec) {
                 unset($acc['settings']['__globals__']['ekit_accordion_title_border_close_color']);
                 unset($acc['settings']['__globals__']['ekit_accordion_title_color']);
 
-                // Adicionar o bloco de CTA logo após o accordion
-                // Verificar se já existe widget de CTA na coluna
-                $has_cta = false;
-                foreach ($col['elements'] as $el) {
-                    if (($el['id'] ?? '') === 'faq_cta_heading') {
-                        $has_cta = true;
-                        break;
-                    }
-                }
+                // Sempre atualizar os widgets de CTA para ficarem perfeitamente centralizados e estilizados
+                // Remover widgets antigos se existirem
+                $col['elements'] = array_values(array_filter($col['elements'], function($el) {
+                    return !in_array($el['id'] ?? '', ['faq_cta_heading', 'faq_cta_desc', 'faq_cta_button']);
+                }));
 
-                if (!$has_cta) {
-                    $cta_widgets = [
-                        [
-                            'id' => 'faq_cta_heading',
-                            'elType' => 'widget',
-                            'widgetType' => 'heading',
-                            'settings' => [
-                                'title' => 'Ainda tem dúvidas sobre o seu caso?',
-                                'header_size' => 'h4',
-                                'title_color' => '#0B1724',
-                                'typography_font_family' => 'Cinzel',
-                                'typography_font_size' => [
-                                    'unit' => 'px',
-                                    'size' => 22,
-                                    'sizes' => []
-                                ],
-                                '_margin' => [
-                                    'unit' => 'px',
-                                    'top' => '35',
-                                    'right' => '0',
-                                    'bottom' => '10',
-                                    'left' => '0',
-                                    'isLinked' => false
-                                ]
+                $cta_widgets = [
+                    [
+                        'id' => 'faq_cta_heading',
+                        'elType' => 'widget',
+                        'widgetType' => 'heading',
+                        'settings' => [
+                            'title' => 'Ainda tem dúvidas sobre o seu caso?',
+                            'header_size' => 'h4',
+                            'align' => 'center',
+                            'title_color' => '#0B1724',
+                            'typography_font_family' => 'Cinzel',
+                            'typography_font_size' => [
+                                'unit' => 'px',
+                                'size' => 24,
+                                'sizes' => []
                             ],
-                            'elements' => []
+                            '_margin' => [
+                                'unit' => 'px',
+                                'top' => '45',
+                                'right' => '0',
+                                'bottom' => '8',
+                                'left' => '0',
+                                'isLinked' => false
+                            ]
                         ],
-                        [
-                            'id' => 'faq_cta_desc',
-                            'elType' => 'widget',
-                            'widgetType' => 'text-editor',
-                            'settings' => [
-                                'editor' => '<p style="color: #4A4A4A; font-size: 15px; margin-bottom: 20px;">Converse com nossa equipe e explique sua situação.</p>',
-                                '_margin' => [
-                                    'unit' => 'px',
-                                    'top' => '0',
-                                    'right' => '0',
-                                    'bottom' => '15',
-                                    'left' => '0',
-                                    'isLinked' => false
-                                ]
-                            ],
-                            'elements' => []
+                        'elements' => []
+                    ],
+                    [
+                        'id' => 'faq_cta_desc',
+                        'elType' => 'widget',
+                        'widgetType' => 'text-editor',
+                        'settings' => [
+                            'editor' => '<p style="color: #4A4A4A; font-size: 16px; margin: 0 auto; text-align: center;">Converse com nossa equipe e explique sua situação.</p>',
+                            'align' => 'center',
+                            '_margin' => [
+                                'unit' => 'px',
+                                'top' => '0',
+                                'right' => '0',
+                                'bottom' => '22',
+                                'left' => '0',
+                                'isLinked' => false
+                            ]
                         ],
-                        [
-                            'id' => 'faq_cta_button',
-                            'elType' => 'widget',
-                            'widgetType' => 'button',
-                            'settings' => [
-                                'text' => 'Falar pelo WhatsApp',
-                                'selected_icon' => [
-                                    'value' => 'fab fa-whatsapp',
-                                    'library' => 'fa-brands'
-                                ],
-                                'icon_align' => 'left',
-                                'icon_indent' => [
-                                    'unit' => 'px',
-                                    'size' => 10,
-                                    'sizes' => []
-                                ],
-                                'link' => [
-                                    'url' => 'https://wa.me/5579999281768?text=' . rawurlencode('Olá! Estive lendo as dúvidas frequentes e gostaria de conversar com a equipe sobre o meu caso em Aracaju.'),
-                                    'is_external' => 'yes',
-                                    'nofollow' => '',
-                                    'custom_attributes' => ''
-                                ],
-                                'button_background_color' => '#C9A45C',
-                                'button_text_color' => '#071220',
-                                'button_hover_background_color' => '#D4B36D',
-                                'button_hover_text_color' => '#000000',
-                                'size' => 'md',
-                                'border_radius' => [
-                                    'unit' => 'px',
-                                    'top' => '4',
-                                    'right' => '4',
-                                    'bottom' => '4',
-                                    'left' => '4',
-                                    'isLinked' => true
-                                ],
-                                '_box_shadow_box_shadow_type' => 'yes',
-                                '_box_shadow_box_shadow' => [
-                                    'horizontal' => 0,
-                                    'vertical' => 4,
-                                    'blur' => 15,
-                                    'spread' => 0,
-                                    'color' => 'rgba(201, 164, 92, 0.35)'
-                                ]
+                        'elements' => []
+                    ],
+                    [
+                        'id' => 'faq_cta_button',
+                        'elType' => 'widget',
+                        'widgetType' => 'button',
+                        'settings' => [
+                            'text' => 'Falar pelo WhatsApp',
+                            'align' => 'center',
+                            'selected_icon' => [
+                                'value' => 'fab fa-whatsapp',
+                                'library' => 'fa-brands'
                             ],
-                            'elements' => []
-                        ]
-                    ];
+                            'icon_align' => 'left',
+                            'icon_indent' => [
+                                'unit' => 'px',
+                                'size' => 10,
+                                'sizes' => []
+                            ],
+                            'link' => [
+                                'url' => 'https://wa.me/5579999281768?text=' . rawurlencode('Olá! Estive lendo as dúvidas frequentes e gostaria de conversar com a equipe sobre o meu caso em Aracaju.'),
+                                'is_external' => 'yes',
+                                'nofollow' => '',
+                                'custom_attributes' => ''
+                            ],
+                            'button_background_color' => '#C9A45C',
+                            'button_text_color' => '#071220',
+                            'button_hover_background_color' => '#D4B36D',
+                            'button_hover_text_color' => '#000000',
+                            'typography_font_weight' => '600',
+                            'size' => 'md',
+                            'border_radius' => [
+                                'unit' => 'px',
+                                'top' => '6',
+                                'right' => '6',
+                                'bottom' => '6',
+                                'left' => '6',
+                                'isLinked' => true
+                            ],
+                            '_box_shadow_box_shadow_type' => 'yes',
+                            '_box_shadow_box_shadow' => [
+                                'horizontal' => 0,
+                                'vertical' => 4,
+                                'blur' => 15,
+                                'spread' => 0,
+                                'color' => 'rgba(201, 164, 92, 0.35)'
+                            ],
+                            '_margin' => [
+                                'unit' => 'px',
+                                'top' => '5',
+                                'right' => '0',
+                                'bottom' => '20',
+                                'left' => '0',
+                                'isLinked' => false
+                            ]
+                        ],
+                        'elements' => []
+                    ]
+                ];
 
-                    foreach ($cta_widgets as $cw) {
-                        $col['elements'][] = $cw;
-                    }
+                foreach ($cta_widgets as $cw) {
+                    $col['elements'][] = $cw;
                 }
 
                 $updated = true;
